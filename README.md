@@ -9,3 +9,9 @@ For testing just follow the following steps:
 	> cmake CMakeLists.txt
 	> make
 	> ./runTests
+
+Maybe you should take this previous steps
+ 1. Installing libgtest of Google with this command
+	> sudo apt-get install libgtest-dev
+ 2. Copy libgtest.a and libgtest_main.a to your /usr/lib folder with this command
+	> sudo cp *.a /usr/lib 
